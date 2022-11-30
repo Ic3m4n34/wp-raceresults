@@ -123,6 +123,7 @@ function display_registration( $atts ) {
 	$key = ($atts['key']);
 	$color1 = ($atts['color1']);
 	$color2 = ($atts['color2']);
+  $cookie_message = ($atts['cookie-message']);
   	$returnstr = '';
   	if($color1 != "" && $color2 != ""){
 	  	$returnstr.='
